@@ -27,4 +27,5 @@ jobs:
         uses: wearerequired/lint-action@feature/use-actions-core
         with:
           github_token: ${{ secrets.github_token }}
+          auto_fix: true
           eslint: true
