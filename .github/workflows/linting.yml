@@ -26,6 +26,6 @@ jobs:
       - name: Run linters
         uses: wearerequired/lint-action@feature/use-actions-core
         with:
-          github_token: ${{ secrets.github_token }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           auto_fix: true
           eslint: true
