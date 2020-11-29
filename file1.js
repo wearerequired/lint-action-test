@@ -1,4 +1,4 @@
-let str = 'world'; // "prefer-const" warning
+const str = 'world'; // "prefer-const" warning
 
 function main() {
 	// "no-warning-comments" error
