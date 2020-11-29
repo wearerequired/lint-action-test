@@ -24,7 +24,7 @@ jobs:
         run: yarn install
 
       - name: Run linters
-        uses: wearerequired/lint-action@feature/use-actions-core
+        uses: wearerequired/lint-action@feature/continue-on-error
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           auto_fix: true
