@@ -28,6 +28,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           continue_on_error: false
-          auto_fix: true
+          auto_fix: false
           eslint: true
           stylelint: true
