@@ -24,7 +24,7 @@ jobs:
         run: yarn install
 
       - name: Run linters
-        uses: wearerequired/lint-action@master
+        uses: wearerequired/lint-action@feature/max-buffer
         with:
           continue_on_error: false
           auto_fix: false
