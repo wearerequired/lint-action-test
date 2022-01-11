@@ -31,6 +31,6 @@ jobs:
         uses: wearerequired/lint-action@master
         with:
           continue_on_error: false
-          auto_fix: false
+          auto_fix: true
           eslint: true
           stylelint: true
