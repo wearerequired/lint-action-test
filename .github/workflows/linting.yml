@@ -28,9 +28,11 @@ jobs:
         run: yarn install
 
       - name: Run linters
-        uses: wearerequired/lint-action@master
+        uses: wearerequired/lint-action@feature/check-dir
         with:
           continue_on_error: false
           auto_fix: true
           eslint: true
+          eslint_dir: yolo
           stylelint: true
+          stylelint_dir: yolo
