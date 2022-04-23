@@ -28,7 +28,7 @@ jobs:
         run: yarn install
 
       - name: Run linters
-        uses: wearerequired/lint-action@feature/check-dir
+        uses: wearerequired/lint-action@feature/switch-error-warning
         with:
           continue_on_error: false
           auto_fix: true
