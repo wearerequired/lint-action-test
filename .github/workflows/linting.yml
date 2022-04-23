@@ -33,6 +33,5 @@ jobs:
           continue_on_error: false
           auto_fix: true
           eslint: true
-          eslint_dir: yolo
           stylelint: true
-          stylelint_dir: yolo
+          stylelint_auto_fix: false
